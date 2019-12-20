@@ -23,7 +23,7 @@
         <!-- End Google Tag Manager -->
 
         <meta charset="UTF-8">
-        <title>Tracking Playground</title>
+        <title>Tracking Playground - Home</title>
     </head>
 
     <body>
@@ -34,6 +34,11 @@
 
         <h1>Hello World!</h1>
 
-        <a href="#" name="button1" onclick="dataLayer.push({'event': 'button1-click'});">Button 1</a>
+        <nav>
+            Home
+            <a href="store.html" name="store" onclick="dataLayer.push({'event': 'store-click'});">Store</a>
+            <a href="contact.html" name="contact" onclick="dataLayer.push({'event': 'contact-click'});">Contact</a>
+            <a href="about.html" name="about" onclick="dataLayer.push({'event': 'about-click'});">About</a>
+        </nav>
     </body>
 </html>
